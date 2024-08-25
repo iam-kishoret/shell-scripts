@@ -28,8 +28,8 @@ This shell script lists users with specific access permissions to a GitHub repos
 2. **Clone the Repository**:
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone https://github.com/iam-kishoret/shell-scripts.git
+   cd shell-scripts
    ```
 
 3. **Make the Script Executable**:
