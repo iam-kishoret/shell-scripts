@@ -17,34 +17,27 @@ Welcome to the **Shell Scripts Collection** repository! This repository contains
 To use any of the scripts, clone this repository and navigate to the directory of the script you're interested in:
 
 ```bash
-git clone https://github.com/your-username/shell-scripts-collection.git
-cd shell-scripts-collection
+git clone https://github.com/iam-kishoret/shell-scripts.git
+cd shell-scripts
 Each script's directory contains a README.md file with detailed instructions on how to use the script.
 
 Scripts Overview
 Below is a list of available scripts in this repository:
 
-1. Backup Script
-A script to automate backups of specified directories or files.
+1. list-github-users-menu
+To list the users from github choosing the permission type.
 
-Directory: backup-script/
-Description: Automates the process of creating backups of critical files or directories.
-Usage: ./backup.sh /path/to/directory /backup/location
-2. System Monitoring Script
-A script to monitor system resources and send alerts based on predefined thresholds.
+Directory: list-github-users-menu/
+Description: Automates the process to list the users from github choosing the permission type.
+Usage: ./list-github-users-menulist-github-users-menu.sh arg1 arg2
+ 
+2. <script-name>
+<Description>.
 
-Directory: system-monitoring/
-Description: Monitors CPU, memory, and disk usage, sending alerts if thresholds are exceeded.
-Usage: ./monitor.sh
-3. User Management Script
-A script to manage user accounts on a Linux system.
+Directory: <directory>/
+Description: .
+Usage: ./script-name.sh <args if any> # Please refer README file for more information.
 
-Directory: user-management/
-Description: Facilitates the creation, deletion, and management of user accounts.
-Usage: ./user_management.sh [add|delete|list]
-... Add more scripts as needed
-
-Contributing
 Contributions are welcome! If you'd like to add a new script or improve an existing one, please follow these steps:
 
 Fork the repository.
@@ -66,26 +59,6 @@ Copy code
 Each script should have its own `README.md` in its directory. Here’s an example for the "Backup Script":
 
 ```markdown
-# Backup Script
-
-## Description
-
-This script automates the process of backing up specified directories or files to a designated backup location. It supports both full and incremental backups.
-
-## Usage
-
-To run the script, use the following command:
-
-```bash
-./backup.sh /path/to/directory /backup/location
-Options
-/path/to/directory: The directory or file you want to back up.
-/backup/location: The destination where the backup will be stored.
-Example
-bash
-Copy code
-./backup.sh /home/user/documents /mnt/backup/documents-backup
-This command will back up the /home/user/documents directory to /mnt/backup/documents-backup.
 
 Requirements
 Bash 4.0 or higher
